@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #B1A29D;
+    
+}
+.container {
+    max-width: 1400px;
+    height: 89vh;
+    background: #E4DFDC;
+    margin: auto;
+    padding: 33px 0 0 33px;
+    border-radius: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+img {
+    width: 76px;
+}
+.active {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    gap: 130px;
+}
+.sidebar {
+    border-left: 1px solid;
+}
+.sidebar div {
+    height: calc(218px / 3);
+    
+}
+.datails {
+    max-width: 505px;
+}
+h1 {
+    font-size: 72px;
+}
